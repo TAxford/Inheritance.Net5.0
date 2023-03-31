@@ -6,7 +6,9 @@ namespace Inheritance.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Radio myRadio = new Radio(false, "Sony");
+            myRadio.SwitchOn();
+            myRadio.ListenRadio();
         }
     }
 }
