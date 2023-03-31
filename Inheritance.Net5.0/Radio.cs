@@ -48,7 +48,7 @@ namespace Inheritance.Net5._0
             if(Ison)
             {
                 //listen to radio
-                Console.WriteLine("Listening to th Radio!");
+                Console.WriteLine("Listening to the Radio!");
             }
             else 
             {
