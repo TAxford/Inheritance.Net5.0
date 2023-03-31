@@ -56,7 +56,5 @@ namespace Inheritance.Net5._0
                 Console.WriteLine("Radio is switched off, switch it on first");
             }
         }
-
-
     }
 }
