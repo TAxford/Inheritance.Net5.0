@@ -14,5 +14,14 @@ namespace Inheritance.Net5._0
         //string for the brand name of the radio
 
         public string Brand { get; set; }
+
+        //basic constructor
+        
+        public Radio(bool isOn, string brand) 
+        {
+
+            Ison = isOn;
+            Brand = brand;
+        }
     }
 }
