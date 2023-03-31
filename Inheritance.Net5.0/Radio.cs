@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Net5._0
 {
+    // Child Class
     internal class Radio : ElectricalDevice
     {
         //can remove the redudant code after giving it the new class

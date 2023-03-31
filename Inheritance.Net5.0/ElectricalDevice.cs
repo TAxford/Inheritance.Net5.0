@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Net5._0
 {
+    //Parent - Base
     internal class ElectricalDevice
     {
         //boolean to determine the state of the Electrical Device

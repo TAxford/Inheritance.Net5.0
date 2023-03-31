@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Net5._0
 {
+    // Child Class
     internal class TV
     {
         //boolean to determine the state of the tv
