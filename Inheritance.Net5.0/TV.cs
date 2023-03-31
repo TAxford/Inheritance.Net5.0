@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 namespace Inheritance.Net5._0
 {
     // Child Class
-    internal class TV
+    internal class TV : ElectricalDevice
     {
+        //can remove the redudant code after giving it the new class
+        /*
         //boolean to determine the state of the tv
 
         public bool Ison { get; set; }
@@ -37,6 +39,14 @@ namespace Inheritance.Net5._0
         public void SwitchOff()
         {
             Ison = false;
+        }*/
+
+        //moved constructor once commenting out the items above
+        public TV(bool isOn, string brand) : base(isOn, brand)
+        {
+            //can remove after adding the :base to this
+            /*Ison = isOn;
+            Brand = brand;*/
         }
 
         //method to watch the TV
