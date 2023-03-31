@@ -42,11 +42,11 @@ namespace Inheritance.Net5._0
         }*/
 
         //moved constructor once commenting out the items above
-        public Radio(bool isOn, string brand)
+        public Radio(bool isOn, string brand):base(isOn, brand)
         {
-
-            Ison = isOn;
-            Brand = brand;
+            //can remove after adding the :base to this
+            /*Ison = isOn;
+            Brand = brand;*/
         }
 
         //method to listen to the radio
