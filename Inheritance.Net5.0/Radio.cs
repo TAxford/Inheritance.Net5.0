@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Net5._0
 {
-    internal class Radio
+    internal class Radio : ElectricalDevice
     {
+        //can remove the redudant code after giving it the new class
+        /*
         //boolean to determine the state of the Radio
 
         public bool Ison { get; set; }
@@ -37,6 +39,14 @@ namespace Inheritance.Net5._0
         public void SwitchOff() 
         {
             Ison= false;
+        }*/
+
+        //moved constructor once commenting out the items above
+        public Radio(bool isOn, string brand)
+        {
+
+            Ison = isOn;
+            Brand = brand;
         }
 
         //method to listen to the radio
