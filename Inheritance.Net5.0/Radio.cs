@@ -16,12 +16,29 @@ namespace Inheritance.Net5._0
         public string Brand { get; set; }
 
         //basic constructor
-        
-        public Radio(bool isOn, string brand) 
+
+        public Radio(bool isOn, string brand)
         {
 
             Ison = isOn;
             Brand = brand;
         }
+
+
+        //added methods
+        //switch on the radio
+
+        public void SwitchOn()
+        {
+            Ison = true;
+        }
+        //switch off the radio
+
+        public void SwitchOff() 
+        {
+            Ison= false;
+        }
+
+
     }
 }
