@@ -39,6 +39,24 @@ namespace Inheritance.Net5._0
             Ison= false;
         }
 
+        //method to listen to the radio
+
+        public void ListenRadio()
+        {
+
+            //first check if the radio is on
+            if(Ison)
+            {
+                //listen to radio
+                Console.WriteLine("Listening to th Radio!");
+            }
+            else 
+            {
+                //print error message
+                Console.WriteLine("Radio is switched off, switch it on first");
+            }
+        }
+
 
     }
 }
