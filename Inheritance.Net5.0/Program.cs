@@ -9,6 +9,11 @@ namespace Inheritance.Net5._0
             Radio myRadio = new Radio(false, "Sony");
             myRadio.SwitchOn();
             myRadio.ListenRadio();
+
+            TV myTV = new TV(false, "Samsung");
+            myTV.SwitchOn();
+            myTV.WatchTV();
+
         }
     }
 }
